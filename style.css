@@ -1,0 +1,27 @@
+.arrows {
+    font-size:70px;
+    color:red;
+  }
+  .circularArrows {
+    font-size:80px;
+    color:blue;
+  }
+  td {
+    background-color:black;
+    border-radius:25%;
+    box-shadow: 5px 5px #888888;
+  }
+  td:active {
+    transform: translate(5px,5px);
+    box-shadow: none; 
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
